@@ -17,10 +17,14 @@ Comparision convert null to a number, treating it as 0. That's why
 null >=0 is true and null > 0 is false.
 */
 
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+// console.log(undefined == 0);
+// console.log(undefined > 0);
+// console.log(undefined < 0);
 
-console.log(undefined);
+// console.log(undefined);
 
 // Strict Check
+// ===
+
+console.log("2" == 2);
+console.log("2" === 2);
