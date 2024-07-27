@@ -32,4 +32,6 @@ const hundreds =1000000;
 const MIN = 10;
 const MAX = 20;
 
-console.log(Math.floor(Math.random()* (MAX-MIN+1)+MIN));
+//console.log(Math.floor(Math.random()* (MAX-MIN+1)+MIN));
+
+console.log(Math.round(2.5));
