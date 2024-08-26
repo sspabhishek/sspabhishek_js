@@ -1,12 +1,16 @@
+// There are two method to create a object in javascript
+// 1. Using Literals
+// 2. Using Constructor
+
+
 // singleton : when we create objects using constructor it's always make singleton and the other side when we create objects using literals it's never a singleton object
 
-const { json } = require("express")
 
 // Object.create //singleton objects
 
-const mySym = Symbol("Key1") 
 
-// object literals
+// 1. Literals Objects
+const mySym = Symbol("Key1") 
 
 const JsUser = {
     name : "Abhishek",
